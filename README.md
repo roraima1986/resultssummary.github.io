@@ -1,4 +1,4 @@
-# Results summary component - QR code component solution
+# Frontend Mentor - Results summary component
 
 ## Overview
 
@@ -17,4 +17,4 @@
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [https://roraima1986.github.io/resultssummary.github.io/](https://roraima1986.github.io/resultssummary.github.io/)
