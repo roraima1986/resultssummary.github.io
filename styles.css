@@ -1,0 +1,182 @@
+/*Fonts*/
+@font-face {
+  font-family: "Hanken Grotesk";
+  src: url(fonts/HankenGrotesk-VariableFont_wght.ttf) format("truetype"), url(fonts/static/HankenGrotesk-Bold.ttf) format("truetype"), url(fonts/static/HankenGrotesk-ExtraBold.ttf) format("truetype"), url(fonts/static/HankenGrotesk-Medium.ttf) format("truetype");
+}
+/* General Features */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+body {
+  background-color: hsl(0, 0%, 100%);
+}
+
+h2 {
+  font-size: 1.25rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+li {
+  list-style: none;
+}
+
+.red {
+  background-color: hsla(0, 100%, 67%, 0.05);
+  color: hsl(0, 100%, 67%);
+}
+
+.yellow {
+  background-color: hsla(39, 100%, 56%, 0.05);
+  color: hsl(39, 100%, 56%);
+}
+
+.green {
+  background-color: hsla(166, 100%, 37%, 0.05);
+  color: hsl(166, 100%, 37%);
+}
+
+.purple {
+  background-color: hsla(234, 85%, 45%, 0.05);
+  color: hsl(234, 85%, 45%);
+}
+
+/* Desktop Design */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 75%;
+  min-height: 100vh;
+  background-color: hsl(0, 0%, 100%);
+  margin: 0 auto;
+}
+
+.card {
+  display: flex;
+  border-radius: 1rem;
+  box-shadow: 10px 20px 30px hsla(241, 100%, 89%, 0.7);
+}
+.card .card-result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  padding: 2rem 3rem;
+  width: 300px;
+  min-width: 300px;
+  border-radius: 1rem;
+}
+.card .card-result .title {
+  color: hsl(241, 100%, 89%);
+  font-weight: 700;
+}
+.card .card-result .circle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(hsl(256, 72%, 46%), hsla(241, 72%, 46%, 0));
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 2rem;
+}
+.card .card-result .circle .big {
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+}
+.card .card-result .circle .small {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: hsl(241, 100%, 89%);
+}
+.card .card-result h4 {
+  font-size: 1.5rem;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 1rem;
+}
+.card .card-result p {
+  color: hsl(241, 100%, 89%);
+  text-align: center;
+  font-size: 0.9rem;
+}
+.card .card-summary {
+  background-color: hsl(0, 0%, 100%);
+  padding: 1rem 0.5rem;
+  width: 300px;
+  border-radius: 0 1rem 1rem 0;
+  padding: 2rem 3rem;
+}
+.card .card-summary .title {
+  color: hsl(224, 30%, 27%);
+  font-weight: 700;
+}
+.card .card-summary .list {
+  padding: 1rem 0;
+}
+.card .card-summary .list .list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem 0;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+.card .card-summary .list .list-item .list-item-title {
+  display: flex;
+  align-items: center;
+}
+.card .card-summary .list .list-item .list-item-title .img {
+  margin-right: 0.5rem;
+}
+.card .card-summary .list .list-item .list-item-result {
+  color: hsl(224, 30%, 27%);
+}
+.card .card-summary .list .list-item .list-item-result span {
+  color: hsla(224, 30%, 27%, 0.5);
+}
+.card .card-summary .btn {
+  background-color: hsl(224, 30%, 27%);
+  width: 100%;
+  padding: 1rem;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 2rem;
+  color: hsl(241, 100%, 89%);
+  text-align: center;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+/* Mobile Design */
+@media screen and (max-width: 600px) {
+  .container {
+    min-width: 100%;
+  }
+  .card {
+    width: 100%;
+    flex-direction: column;
+  }
+  .card .card-result {
+    width: 100%;
+    border-radius: 0 0 1rem 1rem;
+  }
+  .card .card-summary {
+    width: 100%;
+    border-radius: 0;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
