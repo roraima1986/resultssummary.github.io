@@ -53,7 +53,7 @@ li {
   justify-content: center;
   align-items: center;
   min-width: 75%;
-  min-height: 100vh;
+  min-height: 95vh;
   background-color: hsl(0, 0%, 100%);
   margin: 0 auto;
 }
@@ -158,6 +158,15 @@ li {
   text-align: center;
   font-size: 0.9rem;
   cursor: pointer;
+}
+
+.attribution {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
 
 /* Mobile Design */

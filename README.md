@@ -4,7 +4,7 @@
 
 ### Screenshot
 
-![Design preview for the QR code component coding challenge](./design/results-summary-design.jpg)
+![Design preview for the QR code component coding challenge](./design/product-preview-card-design.jpg)
 
 ## My process
 
@@ -13,7 +13,7 @@
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- Sass
+
 
 ## Author
 
