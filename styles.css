@@ -100,7 +100,7 @@ li {
   font-weight: 700;
   color: hsl(241, 100%, 89%);
 }
-.card .card-result h4 {
+.card .card-result .great {
   font-size: 1.5rem;
   color: hsl(0, 0%, 100%);
   margin-bottom: 1rem;
