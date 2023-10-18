@@ -4,7 +4,7 @@
 
 ### Screenshot
 
-![Design preview for the QR code component coding challenge](./design/product-preview-card-design.jpg)
+![Design preview for Results summary component coding challenge](./design/product-preview-card-design.jpg)
 
 ## My process
 
